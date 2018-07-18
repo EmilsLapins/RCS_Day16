@@ -9,9 +9,14 @@ public class Rectangle {
 			width = 4;  //
 		}
 		
-		public  Rectangle (int length, int width) {
+		public  Rectangle (int length, int width) { // rectangle with parameters
 			this.length = length;
 			this.width = width;
+		}
+		
+		public Rectangle (int length) {  //square
+			this.length = length;
+			width = length;
 		}
 		
 		public boolean isSquare() {

@@ -7,7 +7,7 @@ public class MainRectangle {
 
 		Rectangle r1 = new Rectangle();
 		Rectangle r2 = new Rectangle(3, 8);
-		Rectangle r3 = new Rectangle(6, 6);
+		Rectangle r3 = new Rectangle(6);
 		
 		System.out.println("Is r1 square:? " +  r1.isSquare());
 		System.out.println("Area of r1: " + r1.area());
